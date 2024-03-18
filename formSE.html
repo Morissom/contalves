@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formSE.css">
+    <title></title>
+</head>
+<body>
+    <a href="http://192.168.1.59:5500/daskboard/daskboard.html">Voltar</a>
+    <div>
+        <h1 id="titulo">LISTA DE DOCUMENTOS</h1>
+        <h2 id="subtitulo">SOCIEDADE EMPRESÁRIA</h2>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+
+            <div class="campo">
+                <label><strong>- Documentos dos Sócios:</strong></label>
+                <br><br>
+                <label>- Cópia RG e CPF ou CNH -</label>
+                <br>
+                <input type="file" id="flImg" name="flpdf" accept="" >
+                <br><br>
+                <label>- Cópia Título de Eleitor -</label>
+                <br>
+                <input type="file" id="flImg" name="fImage" accept="" >
+                <br><br>
+                <label>- Cópia do Recibo da Última Declaração de Imposto de Renda de Pessoa Física -</label>
+                <br>
+                <input type="file" id="flImg" name="fImage" accept="" >
+                <br><br>
+                <label>- Certificado Digital e-CPF ou Senha do GOV.BR ( conta prata ou ouro ) -</label>
+                <br>
+                <input type="file" id="flImg" name="fImage" accept="" >
+            </div>
+            <br><br>
+    <div class="campo">
+        <label><strong>- Informções Sobre o sócio:</strong></label>
+        <br>
+        <label>
+            <input type="radio" name="solteiro" value="solteiro"> Solteiro (a);
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="casado" value="casado"> Casado (a);
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="divorciado" value="divorciado"> Divorciado (a);
+        </label>
+    </div><br>
+    <div class="campo">
+        <label>- Se casado - divorciado (a):</label>
+        <br>
+        <label>
+            <input type="radio" name="comunhaoparcial" value="comunhaoparcial"> Comunhão Parcial;
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="comunhaouniversal" value="comunhaouniversal"> Comunhão Universal;
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="separacaodebens" value="separacaodebens"> Separação de Bens;
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="participacaofinalaquetos" value="participacaofinalaquetos"> Participação Final Aquetos;
+        </label>
+    </div>
+    <br>
+    <div class="campo">
+        <label for="Residencial">Endereço Residencial:</label>
+        <input type="text" name="endereço" id="endereço">
+    </div>
+    <br><br>
+    <div class="campo">
+                <label><strong>- Documentos da Empresa:</strong></label>
+                <br><br>
+                <label>- Cópia Contrato de Locação com Assinatura Reconhecida em Cartório - <b>OU</b> - Registro do imóvel ( em nome do responsável legal ) -</label>
+                <br>
+                <input type="file" id="flImg" name="flpdf" accept="" >
+                <br><br>
+                <label>- Cópia Comprovante de Endereço Comercial ( aguá ou luz ) -</label>
+                <br>
+                <input type="file" id="flImg" name="flpdf" accept="" >
+                <br><br>
+                <label>- IPTU do Endereço Comercial -</label>
+                <br>
+                <input type="file" id="flImg" name="flpdf" accept="" >
+            </div>
+            <br>
+             <div class="campo">
+        <label><strong>- Informações:</strong></label>
+        <br>
+        <label for="natureza">Natureza Jurídica:</label>
+        <input type="text" name="natureza" id="natureza">
+        <br>
+        <label for="capitalsocial">Capital Social ( $ ):</label>
+        <input type="text" name="capitalsocial" id="capitalsocial">
+        <br>
+        <label for="areautilizadaestabelecimento">Área Utilizada Estabelecimento ( m² ):</label>
+        <input type="text" name="areautilizadaestabelecimento" id="areautilizadaestabelecimento">
+        <br>
+        <label for="opcoes">Duas Opções de Nomes Empresariais (no caso de sociedade):</label>
+        1º Opção:
+        <input type="text" name="opcoes" id="opcoes">
+        <br>
+        2º Opção:
+        <input type="text" name="opcoes" id="opcoes">
+        <br>
+        <label for="nomefantasia">Nome Fantasia:</label>
+        <label></label>
+        <input type="text" name="nomefantasia" id="nomefantasia">
+    </div>
+    <div class="campo">
+        <label for="atividades">Atividades Exercidas:</label>
+        <textarea rows="6" style="width: 26em;" id="experiencia"></textarea>
+    </div>
+    <div class="campo">
+        <label for="telefone">Telefone:</label>
+        <label></label>
+        <input type="text" name="tel" id="tel">
+    </div>
+    <div class="campo">
+        <label for="email">E-mail:</label>
+        <label></label>
+        <input type="text" name="email" id="email">
+    </div>
+    <br>
+    <div>
+        <label><strong>- Porte - Faturamento Anual:</strong></label>
+        <br><br>
+        <label>
+            <input type="radio" name="microempresa" value="microempresa"> Microempresa ( ME ) - Até R$ 360 ml anual;
+        </label>
+        <br><br>
+        <label>
+            <input type="radio" name="empresaepp" value="empresaepp"> Empresa de Pequeno Porte ( EPP ) - R$ 360 mil à R$ 4,8 milhões anual;
+        </label>
+        <br><br>
+        <label>
+            <input type="radio" name="demais" value="demais"> DEMAIS - Acima;
+        </label>
+    </div>
+    <br><br>
+    <div>
+        <label><strong>- Enquadramento - regime Tributário:</strong></label>
+        <br><br>
+        <label>
+            <input type="radio" name="simplesnacional" value="simplesnacional"> Simples Nacional;
+        </label>
+        <br><br>
+        <label>
+            <input type="radio" name="naooptantesimplesnacional" value="naooptantesimplesnacional"> Não Optante do simples Nacional;
+        </label>
+        <br>
+    </div>
+    <br><br><br>
+    <div>
+        <label><strong>- TAXAS DE LEGALIZAÇÃO - ORGÃOS PÚBLICOS</strong></label>
+        <br><br>
+        <label>- Taxa de Registro na Junta Comercial de Minas Gerais: <b>Sociedade Empresária R$ 262,73</b></label>
+        <br><br>
+        <label>- Taxa de Alvará ( vária de acordo com a área utilizada do estabelecimento )</label>
+        <br><br>
+        <label>- Certificado Digital e-CPNJ: <b>R$ 175,00</b> ( somente após abetura )</label>
+    </div>
+    <br><br>
+
+    <button id="botao" type="submit">ENVIAR</button>
+    
+    
+</fieldset class="grupo">
+</form>
+    
+</body>
+</html>

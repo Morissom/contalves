@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formMEI.css">
+    <title></title>
+</head>
+<body>
+    <a href="http://192.168.1.59:5500/daskboard/daskboard.html">Voltar</a>
+    <div>
+        <h1 id="titulo">CONSTITUIÇÃO</h1>
+        <h2 id="subtitulo">Microempresa Individual</h2>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+
+            <div class="campo">
+                <label><strong>- Documentos do (a) Empresário (a):</strong></label>
+                <br><br>
+                <label>- Cópia RG e CPF ou CNH -</label>
+                <br>
+                <input type="file" id="flImg" name="flpdf" accept="" >
+            </div>
+            <br><br>
+    <div class="campo">
+        <label for="Residencial"><strong>- Preencher:</strong></label>
+        <br>
+        <label for="senha">Senha do Gov.br ( conta prata ou ouro ):</label>
+        <input type="text" name="senha" id="senha">
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="text" name="email" id="email">
+        <br>
+        <label for="tel">Telefone:</label>
+        <input type="text" name="tel" id="tel">
+        <br>
+        <label for="endereco">Endereço Residencial:</label>
+        <input type="text" name="endereco" id="endereco">
+        <br>
+        <label for="enderecoc">Endereço Comecial:</label>
+        <input type="text" name="enderecoc" id="enderecoc">
+        <br>
+        <label for="capital">Capital Social:</label>
+        <input type="text" name="capital" id="capital">
+        <br>
+        <label for="atividades">Ocupação (atividades):</label>
+        <textarea rows="3" style="width: 26em;" id="experiencia"></textarea>
+    </div>
+    <br><br>
+    <div class="campo">
+        <label for="financeiro"><strong>- Financeiro:</strong></label>
+        <br>
+        <label>- <b>INSS/ICMS/ISS:</b> O Documento de Arrecadação Simplificada do Microempreendedor Individual, o DAS MEI, é a Guia de Pagamento Mensal dos Impostos.</label>
+    </div>
+    <br><br>
+    <div>
+        <label><strong>- Valores em 2024:</strong></label>
+        <br><br>
+        <label>
+            <input type="radio" name="microempresa" value="microempresa"> R$ 76,60 (INSS + ICMS) Comércio e Indústria;
+        </label>
+        <br><br>
+        <label>
+            <input type="radio" name="empresaepp" value="empresaepp"> R$ 71,60 (INSS + ISS) Prestação de Serviços;
+        </label>
+        <br><br>
+        <label>
+            <input type="radio" name="demais" value="demais"> R$ 75,60 (INSS + ICMS/ISS) Comércio e Prestação de Serviços.
+        </label>
+    </div>
+    <br><br><br>
+    <div>
+        <label><strong>- OBRIGAÇÕES/REGRAS DO MICROEMPREENDEDOR INDIVIDUAL:</strong></label>
+        <br><br>
+        <label>- Realizar a Devida Declaração Anual do Simples Nacional (DASN-SIMEI);</label>
+        <br><br>
+        <label>- Possuir Renda Bruta de no Máximo R$ 81 mil, ao Ano;</label>
+        <br><br>
+        <label>- Não ser Sócio ou Titular em Alguma Outra Empresa;</label>
+        <br><br>
+        <label>- O MEI tem Direito a Contratar no Máximo 1 (um) Funcionário;</label>
+        <br><br>
+        <label>- Atuar em Alguma das 466 Atividades Permitidas ao MEI;</label>
+    </div>
+    <br><br>
+    <div>
+        <label><strong>- Importante:</strong></label>
+        <br><br>
+        <label>- Caso o MEI não cumpra seus Deveres de Forma Adequada, o Profissional Estará Sujeito a Multas e até Mesmo à Perda do CNPJ.</label>
+    </div>
+    <br><br><br>
+    <button id="botao" type="submit">ENVIAR</button>
+    
+    
+</fieldset class="grupo">
+</form>
+    
+</body>
+</html>
